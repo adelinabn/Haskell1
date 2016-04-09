@@ -1,0 +1,114 @@
+  	CALC:	Results of processing file:
+  	"D:\\tests\\test4_functions.txt"
+
+52>	USER:	:func addOne(x)=x+1
+
+52>	CALC:	OK
+
+53>	USER:	:func multSeven(x)=7*x
+
+53>	CALC:	OK
+
+54>	USER:	:func manyargs(a,b,c,d)=(100+a) - 50*b + c - d
+
+54>	CALC:	OK
+
+55>	USER:	:func sameArgs(a,a,b,b)=a+b
+
+55>	CALC:	OK
+
+56>	USER:	:func norags()=15
+
+56>	CALC:	OK
+
+57>	USER:	a=10
+
+57>	CALC:	OK
+
+58>	USER:	b=15
+
+58>	CALC:	OK
+
+59>	USER:	:func argsNotUsed(x,y)=26*0+5
+
+59>	CALC:	OK
+
+60>	USER:	:func twoArgs(a,b)=a+b             
+
+60>	CALC:	OK
+
+61>	USER:	:func dividebyzero(x)=x/0
+
+61>	CALC:	OK
+
+USER:	:func invalid???name(x)=18
+CALC:	Command not found
+
+USER:	:func wrong declaration = wrong
+CALC:	Command not found
+
+USER:	:func 1+6-15^8
+CALC:	Command not found
+
+USER:	:func
+CALC:	Command not found
+
+62>	USER:	:call addOne(7)
+
+62>	CALC:	8
+
+USER:	:call addOne(-7)
+CALC:	Command not found
+
+63>	USER:	:call multSeven(7)
+
+63>	CALC:	49
+
+64>	USER:	:call multSeven(-2.5)
+
+64>	CALC:	-17.5
+
+65>	USER:	:call manyargs(0,2,100,50)
+
+65>	CALC:	50
+
+66>	USER:	:call manyargs(1,2)
+
+66>	CALC:	Incorrect number of parameters!
+
+67>	USER:	:call sameArgs(1,2,3,4)
+
+67>	CALC:	4
+
+68>	USER:	:call noargs()
+
+68>	CALC:	15
+
+69>	USER:	:call noargs(18)
+
+69>	CALC:	Incorrect number of parameters!
+
+70>	USER:	:call argsNotUsed(100,200)
+
+70>	CALC:	5
+
+71>	USER:	:call twoArgs(100,200) 			
+
+71>	CALC:	300
+
+USER:	:call twoArgs(a,b)   			
+CALC:	Command not found
+
+72>	USER:	:call dividebyzero(7)
+
+72>	CALC:	Can't divide by 0.
+
+73>	USER:	:call nosuchfunction()
+
+73>	CALC:	'nosuchfunction' not found.
+
+USER:	:call invalid command
+CALC:	Command not found
+
+USER:	:call
+CALC:	Command not found

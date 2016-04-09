@@ -1,0 +1,30 @@
+  	CALC:	Results of processing file:
+  	"d:\\hask1_mine\\src13\\test0_emptylines.txt"
+
+->	USER:	
+
+->	CALC:	Command not found
+
+->	USER:	
+
+->	CALC:	Command not found
+
+->	USER:	
+
+->	CALC:	Command not found
+
+->	USER:	        
+
+->	CALC:	Command not found
+
+->	USER:	
+
+->	CALC:	Command not found
+
+->	USER:	
+
+->	CALC:	Command not found
+
+->	USER:	
+
+->	CALC:	Command not found

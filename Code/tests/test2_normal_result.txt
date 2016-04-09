@@ -1,0 +1,113 @@
+  	CALC:	Results of processing file:
+  	"tests/test2_normal.txt"
+
+2>	USER:	1+2+5
+
+2>	CALC:	8
+
+3>	USER:	10+18.5 - 15.5
+
+3>	CALC:	13
+
+4>	USER:	1-5+6
+
+4>	CALC:	2
+
+5>	USER:	1-5-6
+
+5>	CALC:	-10
+
+6>	USER:	10*11*20
+
+6>	CALC:	2200
+
+7>	USER:	12.5*4
+
+7>	CALC:	50
+
+8>	USER:	10/2.5
+
+8>	CALC:	4
+
+9>	USER:	9999999999999999999999999999999999999999999999999999999
+
+9>	CALC:	9999999999999999999999999999999999999999999999999999999
+
+10>	USER:	123456789123
+
+10>	CALC:	123456789123
+
+11>	USER:	|100-650|
+
+11>	CALC:	550
+
+12>	USER:	30%24%5
+
+12>	CALC:	1
+
+13>	USER:	16^2
+
+13>	CALC:	256
+
+14>	USER:	x=2
+
+14>	CALC:	OK
+
+15>	USER:	x
+
+15>	CALC:	2
+
+16>	USER:	z=x^(100/100*5)+|200-700|/5^3%750-32
+
+16>	CALC:	OK
+
+17>	USER:	z
+
+17>	CALC:	250
+
+18>	USER:	x=0
+
+18>	CALC:	OK
+
+19>	USER:	:repeat x=x+1 10 times
+
+19>	CALC:	OK
+
+20>	USER:	it
+
+20>	CALC:	10
+
+21>	USER:	x
+
+21>	CALC:	10
+
+22>	USER:	:remove x
+
+22>	CALC:	OK
+
+23>	USER:	x
+
+23>	CALC:	'x' not found.
+
+24>	USER:	y=-18
+
+24>	CALC:	OK
+
+USER:	-y
+CALC:	Command not found
+
+25>	USER:	"123"+"abc"
+
+25>	CALC:	"123abc"
+
+26>	USER:	"abc"*0
+
+26>	CALC:	""
+
+27>	USER:	"abc"*5
+
+27>	CALC:	"abcabcabcabcabc"
+
+28>	USER:	"hey"*3+"hurray"
+
+28>	CALC:	"heyheyheyhurray"

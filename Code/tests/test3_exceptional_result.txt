@@ -1,0 +1,73 @@
+  	CALC:	Results of processing file:
+  	"d:\\tests\\test3_exceptional.txt"
+
+USER:	illegal*symbols=18
+CALC:	Command not found
+
+USER:	CapitalLetter=18
+CALC:	Command not found
+
+32>	USER:	x=unknown + 78
+
+32>	CALC:	'unknown' not found.
+
+USER:	:repeat x=???
+CALC:	Command not found
+
+USER:	:repeat (:q) 10 times
+CALC:	Command not found
+
+33>	USER:	x=2
+
+33>	CALC:	OK
+
+USER:	!x
+CALC:	Command not found
+
+34>	USER:	:repeat x=x+5 0 times
+
+34>	CALC:	Cannot repeat command zero times.
+
+USER:	:repeat x=x+5 -5 times
+CALC:	Command not found
+
+USER:	NO SUCH COMMAND
+CALC:	Command not found
+
+USER:	!-10
+CALC:	Command not found
+
+35>	USER:	!100000
+
+35>	CALC:	Invalid history index!
+
+USER:	:show !-10
+CALC:	Command not found
+
+36>	USER:	:process d:\hask1\src12\test.txt
+
+36>	CALC:	Already processing: current file.
+
+37>	USER:	:process d:\%%%^^nosuchpath
+
+37>	CALC:	Already processing: current file.
+
+38>	USER:	:remove unknown
+
+38>	CALC:	OK
+
+39>	USER:	:q
+
+39>	CALC:	Retype command at console to quit.
+
+40>	USER:	x=100/0
+
+40>	CALC:	Can't divide by 0.
+
+41>	USER:	10^(-2)
+
+41>	CALC:	Invalid exponent.
+
+42>	USER:	10^-2
+
+42>	CALC:	Invalid exponent.

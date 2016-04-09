@@ -1,0 +1,30 @@
+***  Calculator - CS2006 Haskell 1  ***
+---------------------------------------
+
+To run the program:
+-------------------
+
+  1. unpack the files from the zip
+  2. navigate to the main directory
+  3. build the project using cabal:
+	$ cabal configure
+	$ cabal build
+  4. Run the executable:
+        $ ./dist/build/calculator/calculator
+
+
+To read the documentation:
+--------------------------
+
+  1. Generate the documentation:
+	$ cabal haddock --executables
+  2. Navigate to:
+	$ dist/doc/html/calculator/calculator
+  3. Open html pages
+
+
+After usage:
+------------
+
+  1. Clean up the program:
+	$ cabal clean

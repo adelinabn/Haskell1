@@ -1,0 +1,20 @@
+illegal*symbols=18
+CapitalLetter=18
+x=unknown + 78
+:repeat x=???
+:repeat (:q) 10 times
+x=2
+!x
+:repeat x=x+5 0 times
+:repeat x=x+5 -5 times
+NO SUCH COMMAND
+!-10
+!100000
+:show !-10
+:process d:\hask1\src12\test.txt
+:process d:\%%%^^nosuchpath
+:remove unknown
+:q
+x=100/0
+10^(-2)
+10^-2

@@ -1,0 +1,33 @@
+:func addOne(x)=x+1
+:func multSeven(x)=7*x
+:func manyargs(a,b,c,d)=(100+a) - 50*b + c - d
+:func sameArgs(a,a,b,b)=a+b
+:func norags()=15
+a=10
+b=15
+:func argsNotUsed(x,y)=26*0+5
+:func twoArgs(a,b)=a+b             
+:func dividebyzero(x)=x/0
+:func invalid???name(x)=18
+:func wrong declaration = wrong
+:func 1+6-15^8
+:func
+
+
+
+:call addOne(7)
+:call addOne(-7)
+:call multSeven(7)
+:call multSeven(-2.5)
+:call manyargs(0,2,100,50)
+:call manyargs(1,2)
+:call sameArgs(1,2,3,4)
+:call noargs()
+:call noargs(18)
+:call argsNotUsed(100,200)
+:call twoArgs(100,200) 			
+:call twoArgs(a,b)   			
+:call dividebyzero(7)
+:call nosuchfunction()
+:call invalid command
+:call

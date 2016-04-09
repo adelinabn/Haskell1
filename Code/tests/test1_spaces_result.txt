@@ -1,0 +1,14 @@
+  	CALC:	Results of processing file:
+  	"d:\\tests\\test1_spaces.txt"
+
+2>	USER:	1+6
+
+2>	CALC:	7
+
+3>	USER:	258+5
+
+3>	CALC:	263
+
+4>	USER:	c=78
+
+4>	CALC:	OK
